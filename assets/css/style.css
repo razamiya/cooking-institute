@@ -323,3 +323,32 @@ button {
 }
 
 /* mobail-footer-area*/
+
+/* custom style  start */
+
+.commonBtn {
+  background-color: #e30047;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 2px solid #e30047;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.commonBtn:hover {
+  color: #e30047;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.main-menu ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 10px;
+  transition: 0.4s;
+}
+.main-menu ul li a:hover {
+  color: #e30047;
+}
+
+/* custom style   end*/
