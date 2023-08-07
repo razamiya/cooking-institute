@@ -351,4 +351,19 @@ button {
   color: #e30047;
 }
 
+.body-shadow {
+  box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.08),
+    0 1px 3px 1px rgba(60, 64, 67, 0.16);
+}
+
+.call-btn {
+  background-color: #e30047;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 2px solid #e30047;
+  font-weight: 500;
+  transition: 0.4s;
+}
+
 /* custom style   end*/
