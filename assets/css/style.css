@@ -38,6 +38,14 @@ h4 {
   font-weight: bold !important;
 }
 
+.my-line {
+  background-color: #e30047;
+  height: 3px;
+  width: 85px;
+  margin: auto;
+  display: inline-block;
+}
+
 /*  default css */
 
 /* Header Css Start ************************************** */
@@ -306,7 +314,6 @@ h4 {
 
 .mobail-footer-area .mobail-footer-item a {
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
   box-shadow: 2px 3px 5px 0px rgb(0 0 0 / 30%);
@@ -414,7 +421,7 @@ h4 {
 .contact-location .icon {
   background-color: #e30047;
   height: 40px;
-  width: 40px;
+  width: 45px;
   line-height: 40px;
   border-radius: 50%;
   display: flex;
