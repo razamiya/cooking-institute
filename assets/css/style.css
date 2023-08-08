@@ -5,7 +5,6 @@ font-family: 'Roboto', sans-serif; */
 
 /* default css */
 body {
-  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   position: relative;
@@ -29,6 +28,14 @@ button {
   border: none;
   outline: none;
   font-family: "Roboto", sans-serif;
+}
+
+h2,
+h3,
+h1,
+h4 {
+  font-family: "Aveta !important";
+  font-weight: bold !important;
 }
 
 /*  default css */
@@ -228,7 +235,6 @@ button {
 
 .footer-area .footer-item h4 {
   color: #ffffff;
-  font-family: "Work Sans", Sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
@@ -367,3 +373,54 @@ button {
 }
 
 /* custom style   end*/
+
+/* About Page CSS */
+.about-area {
+  margin-bottom: 100px !important;
+}
+
+.about-area .about-heading h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.about-area .about-heading p {
+  color: #7a7a7a;
+  padding: 10px 0;
+}
+
+.about-area .about-content p {
+  color: #7a7a7a;
+  padding: 10px 0;
+}
+.about-area .about-content h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.about-area .about-content span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #e30047;
+  display: block;
+  margin-bottom: 10px;
+}
+/* About Page CSS */
+
+/* Contact Page CSS */
+.contact-location a:hover {
+  color: #000;
+}
+.contact-location i {
+  background-color: #e30047;
+  fill: #fff;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  line-height: 50px;
+  justify-content: center;
+}
+/* Contact Page CSS */
