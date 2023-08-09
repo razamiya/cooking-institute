@@ -102,6 +102,13 @@ h6 {
   border-top: 3px solid #e30047;
   border-radius: 5px 5px 2px 2px;
 }
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .dropdown-menu.my-dropdown-menu {
+    width: 180px;
+  }
+}
+
 .dropdown-menu.my-dropdown-menu a {
   transition: 0.3s;
 }
