@@ -34,6 +34,16 @@ button {
   font-family: smallFont;
   src: url("../fonts/AvertaDemoPECuttedDemo-Regular.otf");
 }
+@font-face {
+  font-family: logoFont;
+  src: url("../fonts/HoustanderDemo.ttf");
+}
+
+.logoFont {
+  font-family: logoFont !important;
+  color: #e30047;
+  font-size: 40px;
+}
 
 h2,
 h3,
@@ -314,7 +324,7 @@ p {
 }
 
 .footer-area .footer-item ul.footer-menu li {
-  display: inline-block !important;
+  display: block !important;
   list-style: none;
 }
 
@@ -326,6 +336,7 @@ p {
   display: inline-block !important;
   margin: 0px 0px 10px 0px;
   transition: 0.4s;
+  display: block;
 }
 
 .footer-area .footer-item ul.footer-menu li a:hover {
