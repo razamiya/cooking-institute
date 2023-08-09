@@ -12,7 +12,6 @@ body {
 a {
   text-decoration: none !important;
   color: black;
-  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -20,10 +19,6 @@ ul {
   margin-bottom: 0;
 }
 
-li {
-  display: inline-block;
-  list-style: none;
-}
 button {
   border: none;
   outline: none;
@@ -36,7 +31,7 @@ button {
 }
 
 @font-face {
-  font-family: h4Font;
+  font-family: smallFont;
   src: url("../fonts/AvertaDemoPECuttedDemo-Regular.otf");
 }
 
@@ -48,9 +43,16 @@ h1 {
 }
 h4,
 h5,
-h6 {
-  font-family: h4Font !important;
-  font-weight: bold !important;
+h6,
+a,
+li,
+p,
+span {
+  font-family: smallFont !important;
+}
+
+p {
+  color: #222;
 }
 
 .my-line {
@@ -59,6 +61,9 @@ h6 {
   width: 85px;
   margin: auto;
   display: inline-block;
+}
+.my-line.left {
+  margin: 0, 0;
 }
 .call-btn {
   background-color: #e30047;
@@ -189,7 +194,7 @@ h6 {
 }
 
 .course-area .course-item .item-body {
-  padding: 40px 20px;
+  padding: 20px 20px;
 }
 .course-area .course-item .item-body h2 {
   font-size: 24px;
@@ -271,7 +276,6 @@ h6 {
 .footer-area .footer-item p {
   text-align: left;
   color: #f5f5f5;
-  font-family: "Work Sans", Sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -284,8 +288,11 @@ h6 {
   line-height: 36px;
   margin-bottom: 15px;
 }
-
-.footer-area .footer-item ul.social li a {
+.footer-area .footer-item .social li {
+  list-style: none;
+  display: inline-block;
+}
+.footer-area .footer-item .social li a {
   color: #747681;
   display: inline-flex;
   background-color: #1d2234;
@@ -301,13 +308,14 @@ h6 {
   transition: 0.4s;
 }
 
-.footer-area .footer-item ul.social li a:hover {
+.footer-area .footer-item .social li a:hover {
   background-color: #e30047;
   color: #fff;
 }
 
 .footer-area .footer-item ul.footer-menu li {
-  display: block !important;
+  display: inline-block !important;
+  list-style: none;
 }
 
 .footer-area .footer-item ul.footer-menu li a {
@@ -315,7 +323,7 @@ h6 {
   font-family: "Work Sans", Sans-serif;
   font-size: 18px;
   font-weight: 400;
-  display: block !important;
+  display: inline-block !important;
   margin: 0px 0px 10px 0px;
   transition: 0.4s;
 }
@@ -349,7 +357,6 @@ h6 {
 }
 
 .mobail-footer-area .mobail-footer-item a {
-  font-family: "Poppins", sans-serif;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
   box-shadow: 2px 3px 5px 0px rgb(0 0 0 / 30%);
@@ -359,10 +366,7 @@ h6 {
   border: 4px solid rgba(255, 255, 255, 0);
   text-align: center !important;
   transition: 0.3s;
-}
-
-.mobail-footer-area .mobail-footer-item a:hover {
-  color: #e30047;
+  color: white;
 }
 
 .mobail-footer-area .mobail-footer-item a img {
