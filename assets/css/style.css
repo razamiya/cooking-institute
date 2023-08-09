@@ -30,11 +30,26 @@ button {
   font-family: "Roboto", sans-serif;
 }
 
+@font-face {
+  font-family: headingFont;
+  src: url("../fonts/AvertaDemoPE-ExtraBold.otf");
+}
+
+@font-face {
+  font-family: h4Font;
+  src: url("../fonts/AvertaDemoPECuttedDemo-Regular.otf");
+}
+
 h2,
 h3,
-h1,
-h4 {
-  font-family: "Aveta !important";
+h1 {
+  font-family: headingFont !important;
+  font-weight: bold !important;
+}
+h4,
+h5,
+h6 {
+  font-family: h4Font !important;
   font-weight: bold !important;
 }
 
@@ -80,6 +95,24 @@ h4 {
 .header-area .nav-btn:hover {
   color: #e30047;
   background-color: transparent;
+}
+
+.dropdown-menu.my-dropdown-menu {
+  width: 200px;
+  border-top: 3px solid #e30047;
+  border-radius: 5px 5px 2px 2px;
+}
+.dropdown-menu.my-dropdown-menu a {
+  transition: 0.3s;
+}
+
+.dropdown-menu.my-dropdown-menu a:hover {
+  letter-spacing: 1px;
+  color: #e30047;
+}
+.navbar-toggler.movail-btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 /* Header Css End */
@@ -421,7 +454,7 @@ h4 {
 .contact-location .icon {
   background-color: #e30047;
   height: 40px;
-  width: 45px;
+  width: 55px;
   line-height: 40px;
   border-radius: 50%;
   display: flex;
@@ -433,6 +466,6 @@ h4 {
 .contact-location .icon i {
   fill: #fff;
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
 }
 /* Contact Page CSS */
