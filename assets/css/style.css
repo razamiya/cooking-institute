@@ -51,6 +51,7 @@ h1 {
   font-family: headingFont !important;
   font-weight: bold !important;
 }
+
 h4,
 h5,
 h6,
@@ -401,9 +402,6 @@ p {
 /* mobail-footer-area*/
 
 /* About Page CSS */
-.about-area {
-  margin-bottom: 100px !important;
-}
 
 .about-area .about-heading h2 {
   font-size: 40px;
