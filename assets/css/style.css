@@ -216,6 +216,18 @@ p {
   line-height: 30px;
   color: #818181;
 }
+
+.course-area .course-item .item-body ul li {
+  font-size: 16px;
+  font-weight: 300;
+  color: #818181;
+  margin-bottom: 13px;
+}
+
+.course-area .course-item .item-body ul i {
+  font-size: 18px;
+  color: #e30047;
+}
 .course-area .course-item .item-body button {
   background-color: #e30047;
   color: white;
