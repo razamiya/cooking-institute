@@ -60,30 +60,7 @@ h6 {
   margin: auto;
   display: inline-block;
 }
-
-/*  default css */
-
-/* Header Css Start ************************************** */
-.header-area {
-  padding: 20px 0;
-  width: 100%;
-  z-index: 999;
-  background-color: #fff;
-  overflow: hidden;
-  margin: auto;
-}
-
-.header-area .main-menu ul li a {
-  font-size: 18px;
-  font-weight: 500;
-  padding: 10px 10px;
-  transition: 0.4s;
-}
-.header-area .main-menu ul li a:hover {
-  color: #e30047;
-}
-
-.header-area .nav-btn {
+.call-btn {
   background-color: #e30047;
   color: white;
   padding: 10px 25px;
@@ -92,10 +69,29 @@ h6 {
   font-weight: 500;
   transition: 0.4s;
 }
-.header-area .nav-btn:hover {
+.commonBtn {
+  background-color: #e30047;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 2px solid #e30047;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.commonBtn:hover {
   color: #e30047;
   background-color: transparent;
+  cursor: pointer;
 }
+
+.body-shadow {
+  box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.08),
+    0 1px 3px 1px rgba(60, 64, 67, 0.16);
+}
+
+/*  default css */
+
+/* Header Css Start ************************************** */
 
 .dropdown-menu.my-dropdown-menu {
   width: 200px;
@@ -376,50 +372,6 @@ h6 {
 }
 
 /* mobail-footer-area*/
-
-/* custom style  start */
-
-.commonBtn {
-  background-color: #e30047;
-  color: white;
-  padding: 10px 25px;
-  border-radius: 3px;
-  border: 2px solid #e30047;
-  font-weight: 500;
-  transition: 0.4s;
-}
-.commonBtn:hover {
-  color: #e30047;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.main-menu ul li a {
-  font-size: 18px;
-  font-weight: 500;
-  padding: 10px 10px;
-  transition: 0.4s;
-}
-.main-menu ul li a:hover {
-  color: #e30047;
-}
-
-.body-shadow {
-  box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.08),
-    0 1px 3px 1px rgba(60, 64, 67, 0.16);
-}
-
-.call-btn {
-  background-color: #e30047;
-  color: white;
-  padding: 10px 25px;
-  border-radius: 3px;
-  border: 2px solid #e30047;
-  font-weight: 500;
-  transition: 0.4s;
-}
-
-/* custom style   end*/
 
 /* About Page CSS */
 .about-area {
