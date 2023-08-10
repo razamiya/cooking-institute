@@ -126,10 +126,6 @@ p {
   display: block;
 }
 
-.time-and-date {
-  background-color: #e30047;
-}
-
 .time-and-date .item h5 {
   font-weight: bold;
 }
