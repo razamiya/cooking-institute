@@ -452,3 +452,26 @@ p {
   font-size: 16px;
 }
 /* Contact Page CSS */
+
+/* Reviews Page CSS */
+.carousel-item .review-item img {
+  width: 80px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.07), 0 2px 2px 0 rgba(0, 0, 0, 0.04) !important;
+}
+.carousel-item .review-item {
+  box-shadow: 0 1px 3px 1px rgb(60 64 67 / 8%),
+    0 1px 3px 1px rgb(60 64 67 / 16%);
+  color: #222222;
+}
+
+.carousel-item .review-item a {
+  color: #e30047;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.carousel-item .review-item a:hover {
+  letter-spacing: 1px;
+}
+/* Reviews Page CSS */
