@@ -88,6 +88,7 @@ p {
 .commonBtn {
   background-color: #e30047;
   color: white;
+  color: white;
   padding: 10px 25px;
   border-radius: 3px;
   border: 2px solid #e30047;
@@ -104,9 +105,45 @@ p {
   box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.08),
     0 1px 3px 1px rgba(60, 64, 67, 0.16);
 }
+.home-testimonial .carousel-item .container .row .col-lg-7 h5 {
+  font-weight: bold;
+}
+.features:hover {
+  background-color: rgba(128, 128, 128, 0.096);
+  cursor: pointer;
+  transition: 0.2s;
+}
 /*  default css */
 
 /* Header Css Start ************************************** */
+
+.navbar {
+  padding: 0 !important;
+}
+
+.navbar .logo a span {
+  font-size: 55px !important;
+  display: block;
+}
+
+.time-and-date {
+  background-color: #e30047;
+}
+
+.time-and-date .item h5 {
+  font-weight: bold;
+}
+.time-and-date .item p {
+  margin-bottom: 0;
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .navbar .logo a span {
+    font-size: 45px !important;
+  }
+}
+
 .dropdown-menu {
   position: relative;
 }
@@ -118,6 +155,7 @@ p {
   top: 23px;
   right: 0;
 }
+
 /* small mobile :320px. */
 @media (max-width: 767px) {
   .dropdown-menu.my-dropdown-menu {
