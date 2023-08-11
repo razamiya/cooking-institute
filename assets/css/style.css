@@ -8,6 +8,9 @@ a {
   text-decoration: none !important;
   color: black;
 }
+a:focus {
+  background-color: transparent !important;
+}
 
 ul {
   padding-left: 0;
@@ -172,6 +175,9 @@ p {
 .dropdown-menu.my-dropdown-menu a:hover {
   color: #e30047;
 }
+.dropdown-menu.my-dropdown-menu a:hover {
+  color: #e30047;
+}
 .navbar-toggler.movail-btn:focus {
   outline: none;
   box-shadow: none;
@@ -187,8 +193,8 @@ p {
   cursor: pointer;
   border-radius: 7px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   text-align: left;
 }
 .course-area .syllabus-item .dropdown i {
@@ -228,11 +234,6 @@ p {
 .accordion.my-course-accordion .accordion-item .accordion-body ul li i {
   font-size: 16px;
   color: #e30047;
-}
-
-.accordion.my-course-accordion .accordion-button {
-  color: #000;
-  box-shadow: none !important;
 }
 
 /* syllabus Area css start */
