@@ -265,6 +265,7 @@ p {
     width: 100%;
     background: no-repeat center right scroll;
     background-size: revert;
+    background-position: 95% 48%;
   }
 }
 
