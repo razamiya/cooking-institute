@@ -179,6 +179,61 @@ p {
 
 /* Header Css End */
 
+/* syllabus Area css start */
+.course-area .syllabus-item {
+  width: 100% !important;
+  padding: 15px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.course-area .syllabus-item .dropdown i {
+  font-size: 30px;
+  color: #e30047;
+}
+.course-area .syllabus-item .content i {
+  display: block;
+  margin: 7px 0;
+  font-size: 20px;
+  color: #e30047;
+}
+.course-area .syllabus-item .content h3 {
+  font-size: 22px;
+  font-weight: 300 !important;
+}
+.course-area .syllabus-item .content p {
+  margin-bottom: 0;
+  font-size: 13px;
+  color: #8b8282;
+}
+
+.accordion.my-course-accordion .accordion-item {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.accordion.my-course-accordion .accordion-item .button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #212529;
+  text-align: left;
+  border: 0;
+  border-radius: 0;
+}
+.accordion.my-course-accordion .accordion-item .accordion-body ul li i {
+  font-size: 16px;
+  color: #e30047;
+}
+/* syllabus Area css start */
+
 /* Hero Slider Section Css Start ******************************* */
 #carousel .carousel-item.item-1 {
   background-image: url("../img/slider-2.webp");
