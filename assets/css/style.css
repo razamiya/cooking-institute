@@ -143,22 +143,25 @@ p {
 .dropdown {
   position: relative;
 }
+
 .dropdown-menu.my-dropdown-menu {
+  width: 310px;
   border-top: 3px solid #e30047;
   border-radius: 5px 5px 2px 2px;
   position: absolute;
   top: 23px;
-  left: 0;
+  left: -150px;
 }
-
-.dropdown-menu.my-dropdown-menu li {
-  display: inline;
+@media (max-width: 990px) {
+  .dropdown-menu.my-dropdown-menu {
+    left: 0px;
+  }
 }
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
-  .dropdown-menu.my-dropdown-menu {
-    width: 180px;
+  .commonBtn {
+    margin-bottom: 25px !important;
   }
 }
 
@@ -167,13 +170,13 @@ p {
 }
 
 .dropdown-menu.my-dropdown-menu a:hover {
-  letter-spacing: 1px;
   color: #e30047;
 }
 .navbar-toggler.movail-btn:focus {
   outline: none;
   box-shadow: none;
 }
+
 /* Header Css End */
 
 /* Hero Slider Section Css Start ******************************* */
