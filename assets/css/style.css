@@ -473,14 +473,24 @@ p {
   color: #e30047;
 }
 
+.contact-location-disc {
+  width: 300px;
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .contact-location-disc {
+    width: 260px !important;
+  }
+}
+
 .contact-location a:hover {
   color: #000;
 }
 
 .contact-location-icon {
   background-color: #e30047;
-  width: 65px !important;
-  height: 60px !important;
+  width: 55px !important;
+  height: 55px !important;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -490,9 +500,10 @@ p {
 .contact-location-icon i {
   fill: #fff;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   display: inline-block;
 }
+
 /* Contact Page CSS */
 
 /* Reviews Page CSS */
