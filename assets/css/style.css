@@ -476,22 +476,22 @@ p {
 .contact-location a:hover {
   color: #000;
 }
-.contact-location .icon {
+
+.contact-location-icon {
   background-color: #e30047;
-  height: 40px;
-  width: 55px;
-  line-height: 40px;
+  width: 65px !important;
+  height: 60px !important;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4px 6px;
 }
 
-.contact-location .icon i {
+.contact-location-icon i {
   fill: #fff;
   color: #fff;
   font-size: 16px;
+  display: inline-block;
 }
 /* Contact Page CSS */
 
