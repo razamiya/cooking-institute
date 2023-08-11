@@ -259,6 +259,15 @@ p {
   background-size: cover;
 }
 
+@media (max-width: 425px) {
+  #carousel .carousel-item {
+    height: 395px;
+    width: 100%;
+    background: no-repeat center right scroll;
+    background-size: revert;
+  }
+}
+
 #carousel .carousel-item .caption {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 40px;
