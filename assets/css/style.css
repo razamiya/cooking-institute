@@ -140,16 +140,19 @@ p {
   }
 }
 
-.dropdown-menu {
+.dropdown {
   position: relative;
 }
 .dropdown-menu.my-dropdown-menu {
-  width: 200px;
   border-top: 3px solid #e30047;
   border-radius: 5px 5px 2px 2px;
   position: absolute;
   top: 23px;
-  right: 0;
+  left: 0;
+}
+
+.dropdown-menu.my-dropdown-menu li {
+  display: inline;
 }
 
 /* small mobile :320px. */
