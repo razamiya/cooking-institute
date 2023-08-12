@@ -2,6 +2,7 @@
   .dropdown-menu.my-dropdown-menu {
     left: -150px;
   }
+
   .contact-location-disc {
     width: 260px !important;
   }
@@ -27,5 +28,8 @@
     background: no-repeat center right scroll;
     background-size: revert;
     background-position: 95% 48%;
+  }
+  .dropdown-menu.my-dropdown-menu {
+    left: -185px;
   }
 }
