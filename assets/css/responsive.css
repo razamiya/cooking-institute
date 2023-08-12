@@ -11,6 +11,9 @@
 @media (max-width: 767px) {
   .commonBtn {
     margin-bottom: 25px !important;
+    margin-bottom: 25px !important;
+    padding: 6px 12px;
+    font-size: 14px;
   }
   .navbar .logo a span {
     font-size: 45px !important;
