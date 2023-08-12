@@ -8,7 +8,6 @@
   }
 }
 
-/* small mobile :320px. */
 @media (max-width: 767px) {
   .commonBtn {
     margin-bottom: 25px !important;
@@ -21,7 +20,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 490px) {
   #carousel .carousel-item {
     height: 395px;
     width: 100%;
@@ -34,5 +33,14 @@
   }
   .navbar .logo a span {
     font-size: 35px !important;
+  }
+}
+@media (max-width: 320px) {
+  #carousel .carousel-item {
+    height: 395px;
+    width: 100%;
+    background: no-repeat center right scroll;
+    background-size: revert;
+    background-position: 90% 48%;
   }
 }
