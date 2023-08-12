@@ -31,96 +31,131 @@
     />
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
   <body>
     <!-- Header nav -->
-    <nav
-      class="navbar my-nav navbar-expand-lg p-3 my-2 my-lg-0 my-md-0 bg-body-tertiary container"
-    >
-      <div class="container-fluid">
-        <div class="logo">
-          <a href="/index.html">
-            <span class="logoFont" style="color: #e30047; font-size: 40px">
-              Modern
-            </span>
-          </a>
-        </div>
-        <button
-          class="navbar-toggler movail-btn"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fa-solid fa-bars text-secondary"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav w-100 ms-lg-2 d-flex">
-            <div
-              class="d-lg-flex justify-content-center w-100 gap-lg-3 ms-lg-5"
-            >
-              <a
-                class="nav-link text-dark fw-bold"
-                aria-current="page"
-                href="index.html"
-                >HOME</a
-              >
-              <a
-                class="nav-link text-dark fw-bold"
-                aria-current="page"
-                href="about.html"
-                >ABOUT</a
-              >
-              <a
-                class="nav-link text-dark fw-bold"
-                aria-current="page"
-                href="./reviews.html"
-                >REVIEWS</a
-              >
-              <a
-                class="nav-link text-dark fw-bold mb-lg-0 mb-3"
-                aria-current="page"
-                href="contact.html"
-                >CONTACT US</a
-              >
-            </div>
-            <div class="dropdown my-2">
-              <a
-                class="commonBtn dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                PROGRAMS
-              </a>
+    <header>
+      <nav
+        class="navbar my-nav navbar-expand-lg p-3 my-2 my-lg-0 my-md-0 bg-body-tertiary container"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler movail-btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars text-secondary"></i>
+          </button>
 
-              <ul class="dropdown-menu my-dropdown-menu mt-3">
-                <li>
-                  <a class="dropdown-item" href="./essentials.html"
-                    >International Culinary Diploma Course
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./certification.html"
-                    >International Baking Diploma Course
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./chef-diploma.html"
-                    >Short Term Certification
-                  </a>
-                </li>
-              </ul>
+          <div class="logo">
+            <a href="/index.html">
+              <span class="logoFont" style="color: #e30047; font-size: 40px">
+                Modern
+              </span>
+            </a>
+          </div>
+
+          <div class="dropdown my-2 d-lg-none d-md-block d-block">
+            <a
+              class="commonBtn dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              PROGRAMS
+            </a>
+
+            <ul class="dropdown-menu my-dropdown-menu mt-3">
+              <li>
+                <a class="dropdown-item" href="./essentials.html"
+                  >International Culinary Diploma Course
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="./certification.html"
+                  >International Baking Diploma Course
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="./chef-diploma.html"
+                  >Short Term Certification
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav w-100 ms-lg-2 d-flex">
+              <div
+                class="d-lg-flex justify-content-center w-100 gap-lg-3 ms-lg-5"
+              >
+                <a
+                  class="nav-link text-dark fw-bold"
+                  aria-current="page"
+                  href="index.html"
+                  >HOME</a
+                >
+                <a
+                  class="nav-link text-dark fw-bold"
+                  aria-current="page"
+                  href="about.html"
+                  >ABOUT</a
+                >
+                <a
+                  class="nav-link text-dark fw-bold"
+                  aria-current="page"
+                  href="./reviews.html"
+                  >REVIEWS</a
+                >
+                <a
+                  class="nav-link text-dark fw-bold mb-lg-0 mb-3"
+                  aria-current="page"
+                  href="contact.html"
+                  >CONTACT US</a
+                >
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </nav>
+
+        <div class="dropdown my-2 d-none d-md-none d-lg-block">
+          <a
+            class="commonBtn dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            PROGRAMS
+          </a>
+
+          <ul class="dropdown-menu my-dropdown-menu mt-3">
+            <li>
+              <a class="dropdown-item" href="./essentials.html"
+                >International Culinary Diploma Course
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="./certification.html"
+                >International Baking Diploma Course
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="./chef-diploma.html"
+                >Short Term Certification
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <!-- Header nav -->
 
     <!-- BradeCome Area Start -->
@@ -173,7 +208,7 @@
               <div class="mb-2">
                 <a href="#" class="d-flex gap-3">
                   <i style="font-size: 25px" class="fa-solid fa-phone"></i>
-                  <p style="color: #000">+00101837385455e</p>
+                  <p style="color: #000">+91 8146911150</p>
                 </a>
               </div>
             </div>
@@ -318,7 +353,7 @@
               <div class="info-item mb-3">
                 <a href="#" class="d-flex gap-3">
                   <i class="fab fa-whatsapp"></i>
-                  <span>+88 0123456782</span>
+                  <span>+91 8146911150</span>
                 </a>
               </div>
             </div>

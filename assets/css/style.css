@@ -136,13 +136,6 @@ p {
   margin-bottom: 0;
 }
 
-/* small mobile :320px. */
-@media (max-width: 767px) {
-  .navbar .logo a span {
-    font-size: 45px !important;
-  }
-}
-
 .dropdown {
   position: relative;
 }
@@ -155,18 +148,6 @@ p {
   top: 23px;
   left: -150px;
 }
-@media (max-width: 990px) {
-  .dropdown-menu.my-dropdown-menu {
-    left: 0px;
-  }
-}
-
-/* small mobile :320px. */
-@media (max-width: 767px) {
-  .commonBtn {
-    margin-bottom: 25px !important;
-  }
-}
 
 .dropdown-menu.my-dropdown-menu a {
   transition: 0.3s;
@@ -175,12 +156,17 @@ p {
 .dropdown-menu.my-dropdown-menu a:hover {
   color: #e30047;
 }
+
 .dropdown-menu.my-dropdown-menu a:hover {
   color: #e30047;
 }
 .navbar-toggler.movail-btn:focus {
   outline: none;
   box-shadow: none;
+}
+
+.commonBtn.dropdown-toggle.show {
+  color: #e30047 !important;
 }
 
 /* Header Css End */
@@ -257,16 +243,6 @@ p {
   min-height: 350px;
   background: no-repeat center center scroll;
   background-size: cover;
-}
-
-@media (max-width: 425px) {
-  #carousel .carousel-item {
-    height: 395px;
-    width: 100%;
-    background: no-repeat center right scroll;
-    background-size: revert;
-    background-position: 95% 48%;
-  }
 }
 
 #carousel .carousel-item .caption {
@@ -551,11 +527,6 @@ p {
 .contact-location-disc {
   width: 300px;
   margin-bottom: 0;
-}
-@media (max-width: 991px) {
-  .contact-location-disc {
-    width: 260px !important;
-  }
 }
 
 .contact-location a:hover {

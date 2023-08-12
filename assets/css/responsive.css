@@ -1,0 +1,28 @@
+@media (max-width: 990px) {
+  .dropdown-menu.my-dropdown-menu {
+    left: -150px;
+  }
+  .contact-location-disc {
+    width: 260px !important;
+  }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .commonBtn {
+    margin-bottom: 25px !important;
+  }
+  .navbar .logo a span {
+    font-size: 45px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  #carousel .carousel-item {
+    height: 395px;
+    width: 100%;
+    background: no-repeat center right scroll;
+    background-size: revert;
+    background-position: 95% 48%;
+  }
+}
