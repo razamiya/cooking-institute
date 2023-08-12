@@ -32,4 +32,7 @@
   .dropdown-menu.my-dropdown-menu {
     left: -185px;
   }
+  .navbar .logo a span {
+    font-size: 35px !important;
+  }
 }
