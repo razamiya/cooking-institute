@@ -31,22 +31,16 @@
     left: -205px;
   }
 
-  .commonBtn {
-    padding: 7px 8px;
-  }
   .navbar .commonBtn {
     padding: 7px 8px;
     font-size: 13px;
   }
   .navbar .logo img {
     width: 124px !important;
-  }
-
-  .navbar.my-nav .logo img {
     width: 165px;
     position: absolute;
     top: -4px;
-    left: 25%;
+    left: 30%;
   }
 }
 
@@ -62,10 +56,10 @@
     background-position: 90% 48%;
   }
 
-  .navbar.my-nav .logo img {
+  /* .navbar.my-nav .logo img {
     width: 165px;
     position: absolute;
     top: -4px;
     left: 22%;
-  }
+  } */
 }
