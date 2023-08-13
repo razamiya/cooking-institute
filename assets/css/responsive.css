@@ -15,8 +15,10 @@
     padding: 6px 12px;
     font-size: 14px;
   }
+
   .navbar .logo a span {
     font-size: 45px !important;
+    margin-left: 90px;
   }
 
   .movail-btn {
@@ -36,7 +38,12 @@
     left: -185px;
   }
   .navbar .logo a span {
-    font-size: 35px !important;
+    margin-left: 40px;
+  }
+
+  .commonBtn {
+    padding: 5px 5px;
+    font-size: 12px;
   }
 }
 @media (max-width: 320px) {

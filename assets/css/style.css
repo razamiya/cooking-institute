@@ -225,17 +225,6 @@ p {
 /* syllabus Area css start */
 
 /* Hero Slider Section Css Start ******************************* */
-#carousel .carousel-item.item-1 {
-  background-image: url("../img/slider-2.webp");
-}
-
-#carousel .carousel-item.item-2 {
-  background-image: url("../img/slider-1.webp");
-}
-
-#carousel .carousel-item.item-3 {
-  background-image: url("../img/slider-2.webp");
-}
 
 #carousel .carousel-item {
   height: 510px;
