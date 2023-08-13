@@ -157,15 +157,13 @@ p {
   color: #e30047;
 }
 
-.dropdown-menu.my-dropdown-menu a:hover {
-  color: #e30047;
-}
 .navbar-toggler.movail-btn:focus {
   outline: none;
   box-shadow: none;
 }
 
 .commonBtn.dropdown-toggle.show {
+  background-color: transparent !important;
   color: #e30047 !important;
 }
 
