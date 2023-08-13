@@ -122,6 +122,8 @@ p {
 
 .navbar {
   padding: 0 !important;
+  z-index: 9999999;
+  background-color: #fff;
 }
 
 .navbar .logo a span {

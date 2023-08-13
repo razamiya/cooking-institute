@@ -35,7 +35,7 @@
     background-position: 95% 48%;
   }
   .dropdown-menu.my-dropdown-menu {
-    left: -185px;
+    left: -215px;
   }
   .navbar .logo a span {
     margin-left: 60px;
@@ -44,12 +44,18 @@
   .commonBtn {
     padding: 5px 5px;
     font-size: 12px;
+    margin-right: 17px;
   }
 }
 
 @media (max-width: 375px) {
   .navbar .logo a span {
     margin-left: 70px;
+  }
+  .commonBtn {
+    padding: 5px 5px;
+    font-size: 12px;
+    margin-right: 0px;
   }
 }
 
