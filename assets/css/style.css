@@ -130,9 +130,8 @@ p {
   background-color: #fff;
 }
 
-.navbar .logo a span {
-  font-size: 55px !important;
-  display: block;
+.navbar.my-nav .logo img {
+  width: 165px;
 }
 
 .time-and-date .item h5 {
