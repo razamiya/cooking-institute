@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 767px) {
-  .commonBtn {
+  .navbar .commonBtn {
     margin-bottom: 25px !important;
     margin-bottom: 25px !important;
     padding: 6px 12px;
@@ -41,7 +41,7 @@
     margin-left: 60px;
   }
 
-  .commonBtn {
+  .navbar .commonBtn {
     padding: 5px 5px;
     font-size: 12px;
     margin-right: 17px;
@@ -52,7 +52,7 @@
   .navbar .logo a span {
     margin-left: 70px;
   }
-  .commonBtn {
+  .navbar .commonBtn {
     padding: 5px 5px;
     font-size: 12px;
     margin-right: 0px;

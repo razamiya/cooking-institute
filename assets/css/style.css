@@ -111,11 +111,15 @@ p {
 .home-testimonial .carousel-item .container .row .col-lg-7 h5 {
   font-weight: bold;
 }
-.features:hover {
-  background-color: rgba(128, 128, 128, 0.096);
-  cursor: pointer;
-  transition: 0.2s;
+
+.sneak-peek .item li {
+  margin: 15px 0;
 }
+.sneak-peek .item li i {
+  color: #e30047;
+  font-size: 18px;
+}
+
 /*  default css */
 
 /* Header Css Start ************************************** */
