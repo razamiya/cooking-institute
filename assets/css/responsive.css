@@ -41,6 +41,13 @@
   .navbar .logo img {
     width: 124px !important;
   }
+
+  .navbar.my-nav .logo img {
+    width: 165px;
+    position: absolute;
+    top: -4px;
+    left: 25%;
+  }
 }
 
 @media (max-width: 375px) {
@@ -53,5 +60,12 @@
     background: no-repeat center right scroll;
     background-size: revert;
     background-position: 90% 48%;
+  }
+
+  .navbar.my-nav .logo img {
+    width: 165px;
+    position: absolute;
+    top: -4px;
+    left: 22%;
   }
 }
