@@ -15,7 +15,7 @@
   }
 
   .dropdown-menu.my-dropdown-menu {
-    left: -182px;
+    left: -150px;
   }
 }
 
@@ -26,6 +26,9 @@
     background: no-repeat center right scroll;
     background-size: revert;
     background-position: 95% 48%;
+  }
+  .dropdown-menu.my-dropdown-menu {
+    left: -205px;
   }
 
   .commonBtn {
