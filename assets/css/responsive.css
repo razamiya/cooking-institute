@@ -55,6 +55,9 @@
     background-size: revert;
     background-position: 90% 48%;
   }
+  .navbar .logo img {
+    left: 23%;
+  }
 
   /* .navbar.my-nav .logo img {
     width: 165px;
