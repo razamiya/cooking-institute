@@ -23,9 +23,6 @@
   #carousel .carousel-item {
     height: 395px;
     width: 100%;
-    background: no-repeat center right scroll;
-    background-size: revert;
-    background-position: 95% 48%;
   }
   .dropdown-menu.my-dropdown-menu {
     left: -205px;
@@ -51,9 +48,6 @@
   #carousel .carousel-item {
     height: 395px;
     width: 100%;
-    background: no-repeat center right scroll;
-    background-size: revert;
-    background-position: 90% 48%;
   }
   .navbar .logo img {
     left: 23%;
