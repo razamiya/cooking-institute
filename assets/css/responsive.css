@@ -17,6 +17,11 @@
   .dropdown-menu.my-dropdown-menu {
     left: -150px;
   }
+
+  #carousel .carousel-item {
+    background: no-repeat top center scroll;
+    background-size: cover;
+  }
 }
 
 @media (max-width: 490px) {
